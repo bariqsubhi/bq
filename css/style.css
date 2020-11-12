@@ -1,0 +1,323 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+html,body,h2{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 100%;
+    background: url(../images/image.jpeg) fixed;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+main b{
+    font-size: 1.25rem;
+    color: rgb(0, 225, 255);
+}
+header,footer{
+    color: rgb(248, 252, 53);
+    background-color: rgb(46, 48, 47);
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px;
+}
+header{
+    border-top:3px solid darkred ;
+    border-left: 2.5px solid yellow;
+    border-right: 2.5px solid yellow;
+    border-bottom: 5px solid darkred;
+    border-radius: 15px;
+}
+#headerContent{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 90%;
+    padding: 5px;
+}
+#socialIcons{
+    width: 250px;
+    height: 1.8rem;
+    color: rgb(46, 48, 47);
+    display: block;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.social{
+    width: 85%;
+    margin: auto;
+    height: 1rem;
+}
+#socialIcons .socialMenu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: center;
+}
+header ul{
+    width: 100%;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    margin: auto;
+    color: rgb(67, 67, 68);}
+#socialIcons li{
+    font-size: 1.4rem;
+    transition: 0.3s ease;
+}
+#socialIcons li:hover{
+    font-size: 2rem;
+}
+
+ .face{
+    color: blue;
+    background-color: rgb(253, 253, 253);
+    padding: 2px 4px 1px 4px;
+    border-radius: 9px;
+}
+ .twitter{
+    color: cyan;
+}
+.snapchat{
+    color: rgb(252, 255, 102);
+}
+ .instagram{
+    color: white;
+}
+ .medium{
+    color: black;
+    background-color: white;
+}
+.linked{
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(15, 82, 207);
+    padding: 2px 4px 1px 4px;
+    border-radius: 5px;
+}
+
+.facebook:before{
+    font-size: 1.3rem;
+    height: 1.5em;
+    line-height: 1em;
+    width: 2em;}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+header a{color: white;}
+
+#headerContent a:hover{
+    color: rgb(248, 132, 0);
+}
+.titleName{
+    margin: auto;
+    font-size: 1.9rem;
+    font-style: italic;
+    display: block;
+    overflow: hidden;
+}
+abbr{
+    text-decoration: none;
+}
+#searchBox{
+    position: absolute;
+    top: 23px;
+    right: 57px;
+    width: fit-content;
+    display: block;
+    overflow: hidden;
+}
+
+#searchBox input{
+    width: 120px;
+    margin-right: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-variant: petite-caps;
+    font-style: oblique;
+    padding: 1.5px 7px;
+}
+.navBar{
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.navBar>ul{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 0em;
+    padding:0px;
+    background: url(../images/image2.jpg);
+    background-position: top;
+    border: 5px solid black;
+    border-radius: 18px;
+    transform: translateX(8%);
+}
+.home{
+    color: white;
+    font-size: 1.4rem;
+    padding: 8px;
+    transition: 0.3s ease;
+}
+.home:hover{
+    color: orangered;
+    font-size: 1.7rem;
+    padding: 6px;
+}
+.menu>li{
+    width: fit-content;
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 4px;
+
+}
+.menu>li>a{
+    font-size: 1rem;
+    color: rgb(13, 13, 14);
+    width: fit-content;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 40%;
+    padding: 2px 5px;
+    transition: 0.3s ease;
+}
+.menu>li>a:hover{
+    background-color: rgb(14, 15, 15);
+    color: orangered;
+    margin: 0px;
+    padding: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+main p{
+    font-size: 1.3rem;
+    color: rgb(187, 255, 0);
+    
+}
+.part{
+    background-color: black;
+    opacity: 0.88;
+    border-radius: 20%;
+    padding: 2rem 2rem;
+    margin: 2rem;
+}
+footer{
+
+    align-items: center;
+    margin: auto;
+    margin-bottom: 4px;
+    
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    display: flex;
+    border-radius: 18px;
+}
+footer div{
+    width: fit-content;
+    color: ivory;
+}
+footer a:hover{
+    font-size: 1.2rem;
+    transition: 0.25s ease;
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+footer #socialIcons li>a:hover{
+    font-size: 2rem;
+    margin-top: -5px;
+    padding: 0px;
+}
+@media(max-width:868px){
+    #searchBox{
+        display: none;
+    }
+    .titleName{
+        font-size: x-large;
+        margin-right: 0px;
+        height: 1.5rem;
+        width: fit-content;
+    }
+    .home{
+        font-size: 0.98rem;
+        width: 100px;
+        padding: 0.8rem;
+    }
+    .home:hover{
+        font-size: 1.2rem;
+    }
+.navBar>ul{
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    overflow: hidden;
+}
+    .menu>li>a{
+        font-size: 10px;
+    }
+    .menu>li>a:hover{
+       font-size:0.95rem ; 
+    }
+    .part>h1{
+        font-size: 1.6rem;
+    }
+}
+
+    @media(max-width:582px){
+        .home{
+            font-size: 0.98rem;
+            width: 100px;
+            padding: 0.8rem;
+            justify-content: center;
+        }
+        .home:hover{
+            font-size: 1.2rem;
+            margin: 3px 0 0 0;
+        }
+        #socialIcons{
+            display: none;
+        }
+        .titleName{
+            margin: auto;
+        }
+        main p{
+            font-size: 1rem;
+        }
+    main .part>h1{
+        font-size: 1.2rem;
+    }
+
+    }
+
+    @media(max-width:960px){
+    
+        .navBar>ul{
+            height:2.5rem;
+            border: 3px solid black;
+        }
+        .menu{
+            align-items: center;
+        }
+        .menu>li>a{
+            font-size: 0.8rem;
+        }
+    }
